@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LCAExtension_Example' do
+  pod 'LCAExtension', :path => '../'
+
+  target 'LCAExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
