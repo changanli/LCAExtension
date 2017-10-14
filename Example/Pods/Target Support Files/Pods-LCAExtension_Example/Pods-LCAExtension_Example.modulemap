@@ -1,0 +1,6 @@
+framework module Pods_LCAExtension_Example {
+  umbrella header "Pods-LCAExtension_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
