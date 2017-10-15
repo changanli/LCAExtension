@@ -7,9 +7,9 @@
 //
 
 import UIKit
-import Foundation
 
 public extension String {
+    
     //MARK:计算文本的长度
     // 计算文本的长度
     /// - Parameters:
@@ -23,5 +23,4 @@ public extension String {
         let size = (self as NSString).boundingRect(with: size, options: NSStringDrawingOptions.usesLineFragmentOrigin, attributes: arributes, context: nil).size
         return size
     }
-
 }

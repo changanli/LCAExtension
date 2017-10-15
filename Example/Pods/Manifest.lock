@@ -1,5 +1,5 @@
 PODS:
-  - LCAExtension (0.1.0)
+  - LCAExtension (1.0.5)
 
 DEPENDENCIES:
   - LCAExtension (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  LCAExtension: 1fb5a01c4882f7f7aaa0d0c655455eacf94f24de
+  LCAExtension: 646dc95821e109f3e64331eda4b60b912c3f6664
 
 PODFILE CHECKSUM: 5bd13189f2ec7463cfaddebaa8762eaeaad3f5a0
 

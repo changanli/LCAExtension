@@ -656,10 +656,9 @@ public extension UIImage {
         return originImage.resizableImage(withCapInsets: UIEdgeInsetsMake(edgeTop, edgeLeft, edgeBottom, edgeRight), resizingMode: .stretch)
     }
 }
-
 public extension UIImage {
-//    public convenience init?(lca_named:String){
-//        self.init(named: lca_named)
-//    }
+   public convenience init?(lca_named:String){
+        self.init(named: lca_named)
+    }
 }
 
