@@ -8,26 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		0583697D4B2908636F23B4C4C58B7538 /* Pods-LCAExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 454DD882BCD582945C22664CDD38EDD6 /* Pods-LCAExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		05D0DC63393014E997E8AC22CCB77DF3 /* LCAExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A4242B2C1E1EEE251F9ABE0942BBC68 /* LCAExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		066D3D1D8DE4916DF33172BE55080D83 /* UIButton+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BD3508D82FD05DDA7FD3B21842F1F /* UIButton+Additions.swift */; };
-		0EE42A9C3B1689A324C48D9C7048D952 /* UIAlertController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88B5E58F5D3E796C0F1312E7442A2C /* UIAlertController+Additions.swift */; };
-		1B019BD3B474CA8AB5CA08A051594DD6 /* UIImage+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC83FBA90C4D4EC57F111B10D3F4F6E /* UIImage+Additions.swift */; };
-		28361306B7A26E4416AEA070DC0D521B /* UILabel+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E9CA18699FA8515D5B19F35DB8CC2 /* UILabel+Additions.swift */; };
-		2B3E01D596F312AC15D36FB87EC313E1 /* Date+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9C8D4C22D09972C455B9C52FD40220 /* Date+Additions.swift */; };
-		3C7AA9322116DF27BECE248A33A6B4DF /* UIWebView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F3EC4B7A00CAD9C7135D8BA7920D4D /* UIWebView+Additions.swift */; };
-		5523A80BA15327189D356D04C8E4B321 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D996FE55AB53F7C46C2B0426515BAF12 /* UIColor+Additions.swift */; };
+		152933FE1B25D8E8F5E8D7E40E5F7EB0 /* WKWebView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DECAAA0544187A730A0D0BC4148CBA /* WKWebView+Additions.swift */; };
+		29103F201589B13913BE8C3773D3AB08 /* UIImage+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC83FBA90C4D4EC57F111B10D3F4F6E /* UIImage+Additions.swift */; };
+		4DA131A50815C2CA8EEDD2279CB3FFFE /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB250F5CBC690503766B70918D89BAD /* UIView+Additions.swift */; };
+		558DEDD00CD480035327CC5BC0FE353A /* Bundle+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CCED2BF10F74BE96FAD4000BB035E2 /* Bundle+Additions.swift */; };
+		5C784DB37F412527B76942D29CF7AC2C /* Date+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9C8D4C22D09972C455B9C52FD40220 /* Date+Additions.swift */; };
+		5D97706763D9D344EF1EFB44B7145668 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		5E57A1D2A80233D83596DB97E26A3503 /* Pods-LCAExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 147639DD59A27EB3228FA8461CD9EC13 /* Pods-LCAExtension_Example-dummy.m */; };
-		605BB1C6E1C082CAB7CC6D3A8B0D0E0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		731C2251B97A5288FE47EE6AB367D3F9 /* Bundle+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CCED2BF10F74BE96FAD4000BB035E2 /* Bundle+Additions.swift */; };
-		7C497BC73AAB0F3AC7D1041C77151257 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		88A7F6407B62485FD583B643BFBA5F19 /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B194CA6378D0505C6EADD083D41CF1AA /* String+Additions.swift */; };
-		A01EFD5E3FA0D27CC4F6E6729BC556A6 /* UIDevice+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7F900D8E3735EAC2421165892B653E /* UIDevice+Additions.swift */; };
-		A37CE798D638B8D65E38C42713C939E6 /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB250F5CBC690503766B70918D89BAD /* UIView+Additions.swift */; };
-		B06E21950722A8C5B8EC26EE6D1BA080 /* LCAExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7662FAB5F9A99CBC2DF33BD2F857F0A /* LCAExtension-dummy.m */; };
+		7C497BC73AAB0F3AC7D1041C77151257 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		934C647AC89BDD380DCF120EB12BF49A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		942B66D2469840164EF5377D2A56650F /* UIDevice+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7F900D8E3735EAC2421165892B653E /* UIDevice+Additions.swift */; };
+		9FB65889708F568A570A14FD235DA1F5 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D996FE55AB53F7C46C2B0426515BAF12 /* UIColor+Additions.swift */; };
+		B0C285DB12ED24781BBD88B0D0E05581 /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B194CA6378D0505C6EADD083D41CF1AA /* String+Additions.swift */; };
+		BAFE946244D3A437ABC55A5A12BD5538 /* UIButton+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BD3508D82FD05DDA7FD3B21842F1F /* UIButton+Additions.swift */; };
 		BC9755653A9EBA2D590FD5C910E2F569 /* Pods-LCAExtension_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC63930D9D8F0AA7591AD8C4CDB698C /* Pods-LCAExtension_Tests-dummy.m */; };
-		C021DBCD645BFAF1D8FE0AAA7D99C959 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D3C605AD7998B627DBA9FB727FA56327 /* WKWebView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DECAAA0544187A730A0D0BC4148CBA /* WKWebView+Additions.swift */; };
+		C021DBCD645BFAF1D8FE0AAA7D99C959 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		CF49781910E249D0A8AC6C243859F732 /* LCAExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7662FAB5F9A99CBC2DF33BD2F857F0A /* LCAExtension-dummy.m */; };
+		DBC165F38732F2BF6FB86CFF61A29206 /* LCAExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A4242B2C1E1EEE251F9ABE0942BBC68 /* LCAExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFEFF769951960AFE2102362F4248E00 /* UIWebView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F3EC4B7A00CAD9C7135D8BA7920D4D /* UIWebView+Additions.swift */; };
+		F3BCD2879B2DC3185EEB861A6712B6B3 /* UILabel+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E9CA18699FA8515D5B19F35DB8CC2 /* UILabel+Additions.swift */; };
 		F96F1702CECAB107F80C0685C210AFEE /* Pods-LCAExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFB47C74064E08B87F86447045B696F /* Pods-LCAExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDA4A4984C655B79889ED1560224451E /* UIAlertController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88B5E58F5D3E796C0F1312E7442A2C /* UIAlertController+Additions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9EB9865B8168F799758EDFEBEFF346A1;
+			remoteGlobalIDString = D7CD41650898493D8FDEAEEE23983968;
 			remoteInfo = LCAExtension;
 		};
 /* End PBXContainerItemProxy section */
@@ -57,7 +58,6 @@
 		53DB993C84667D0081824ED7A0CC7CD0 /* Pods-LCAExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCAExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5622F83FB258F683496E5AEC18D6B9FC /* Pods-LCAExtension_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCAExtension_Example-resources.sh"; sourceTree = "<group>"; };
 		5B88B5E58F5D3E796C0F1312E7442A2C /* UIAlertController+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertController+Additions.swift"; path = "LCAExtension/Classes/UIAlertController+Additions.swift"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A4242B2C1E1EEE251F9ABE0942BBC68 /* LCAExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCAExtension-umbrella.h"; sourceTree = "<group>"; };
 		6BE94AE8935A0FB7764B249DFB1C07F6 /* Pods_LCAExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LCAExtension_Example.framework; path = "Pods-LCAExtension_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74ABF3BE5F85488BD69CCCC1A2ECBF4B /* Pods-LCAExtension_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCAExtension_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -69,6 +69,7 @@
 		9CFAD75E13853EF50BC27C0C2D84FC2F /* Pods-LCAExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCAExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9CFD305B25FDE111016C3E52D026C9FC /* Pods-LCAExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCAExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B194CA6378D0505C6EADD083D41CF1AA /* String+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Additions.swift"; path = "LCAExtension/Classes/String+Additions.swift"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B966083E85147938B7A2F6CB7CDF6618 /* Pods-LCAExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCAExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BB3E9CA18699FA8515D5B19F35DB8CC2 /* UILabel+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Additions.swift"; path = "LCAExtension/Classes/UILabel+Additions.swift"; sourceTree = "<group>"; };
 		BF6FFA9DEF124BD539FE8706349D6907 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,6 +80,7 @@
 		D2FFFC722C68CD2B99F5E83232CD078E /* Pods-LCAExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCAExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D4CCED2BF10F74BE96FAD4000BB035E2 /* Bundle+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Additions.swift"; path = "LCAExtension/Classes/Bundle+Additions.swift"; sourceTree = "<group>"; };
 		D7662FAB5F9A99CBC2DF33BD2F857F0A /* LCAExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LCAExtension-dummy.m"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D996FE55AB53F7C46C2B0426515BAF12 /* UIColor+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Additions.swift"; path = "LCAExtension/Classes/UIColor+Additions.swift"; sourceTree = "<group>"; };
 		E3E78D7449B668DE704C32DD4EFE1BAF /* Pods-LCAExtension_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCAExtension_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EC2572FCA38D9C970D018B30E58DFA8B /* LCAExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LCAExtension.framework; path = LCAExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,19 +97,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3BE8A95434584CA2E1F0C346683AF0D1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				605BB1C6E1C082CAB7CC6D3A8B0D0E0E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4EFE78788942CADC4A73267195764972 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C021DBCD645BFAF1D8FE0AAA7D99C959 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79B8FB1DB1E2EDB95E252A2830C7750E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934C647AC89BDD380DCF120EB12BF49A /* Foundation.framework in Frameworks */,
+				5D97706763D9D344EF1EFB44B7145668 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +144,23 @@
 			path = "Target Support Files/Pods-LCAExtension_Tests";
 			sourceTree = "<group>";
 		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		75FFB121ACA55C7D74C9BEEE3527F3D2 /* LCAExtension */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,7 +187,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				9B8E7A840FEE300290960A7E7103124F /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				B2CA39FEF4C9B7315864EA3608859036 /* Products */,
 				2F8EB17348136BFF19685F8934AAC1AA /* Targets Support Files */,
 			);
@@ -191,14 +211,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		CE4F31042AB07BBFCD51510B3F9DFDC8 /* Pods-LCAExtension_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,14 +227,6 @@
 			);
 			name = "Pods-LCAExtension_Example";
 			path = "Target Support Files/Pods-LCAExtension_Example";
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		FCFD30733E03D4DD7273D43D4C4E7701 /* Support Files */ = {
@@ -250,19 +254,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		196CC4860873517486DA18ADD047762B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC165F38732F2BF6FB86CFF61A29206 /* LCAExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3A80F6E21AC72EBE3A84E5FD938212E1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0583697D4B2908636F23B4C4C58B7538 /* Pods-LCAExtension_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5149F18A2B0AC284B62E790E6891F7A4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				05D0DC63393014E997E8AC22CCB77DF3 /* LCAExtension-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,13 +290,13 @@
 			productReference = D04356ED1E7422C3ABAF64BDCCFFE09C /* Pods_LCAExtension_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9EB9865B8168F799758EDFEBEFF346A1 /* LCAExtension */ = {
+		D7CD41650898493D8FDEAEEE23983968 /* LCAExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5510AB62D2BA92D22DD67849ED41DABC /* Build configuration list for PBXNativeTarget "LCAExtension" */;
+			buildConfigurationList = 94D9F9494C32FC0862EED591113BD6E9 /* Build configuration list for PBXNativeTarget "LCAExtension" */;
 			buildPhases = (
-				810A952B48D20F87C11B77ECB9AE36F9 /* Sources */,
-				3BE8A95434584CA2E1F0C346683AF0D1 /* Frameworks */,
-				5149F18A2B0AC284B62E790E6891F7A4 /* Headers */,
+				BA683BD993A617F8753131E5BEC50C89 /* Sources */,
+				79B8FB1DB1E2EDB95E252A2830C7750E /* Frameworks */,
+				196CC4860873517486DA18ADD047762B /* Headers */,
 			);
 			buildRules = (
 			);
@@ -342,7 +346,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9EB9865B8168F799758EDFEBEFF346A1 /* LCAExtension */,
+				D7CD41650898493D8FDEAEEE23983968 /* LCAExtension */,
 				F221AB984E700D79D86804988BEC4038 /* Pods-LCAExtension_Example */,
 				907011E0C3621ED63B3D63BA3DBF14A4 /* Pods-LCAExtension_Tests */,
 			);
@@ -358,31 +362,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		810A952B48D20F87C11B77ECB9AE36F9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				731C2251B97A5288FE47EE6AB367D3F9 /* Bundle+Additions.swift in Sources */,
-				2B3E01D596F312AC15D36FB87EC313E1 /* Date+Additions.swift in Sources */,
-				B06E21950722A8C5B8EC26EE6D1BA080 /* LCAExtension-dummy.m in Sources */,
-				88A7F6407B62485FD583B643BFBA5F19 /* String+Additions.swift in Sources */,
-				0EE42A9C3B1689A324C48D9C7048D952 /* UIAlertController+Additions.swift in Sources */,
-				066D3D1D8DE4916DF33172BE55080D83 /* UIButton+Additions.swift in Sources */,
-				5523A80BA15327189D356D04C8E4B321 /* UIColor+Additions.swift in Sources */,
-				A01EFD5E3FA0D27CC4F6E6729BC556A6 /* UIDevice+Additions.swift in Sources */,
-				1B019BD3B474CA8AB5CA08A051594DD6 /* UIImage+Additions.swift in Sources */,
-				28361306B7A26E4416AEA070DC0D521B /* UILabel+Additions.swift in Sources */,
-				A37CE798D638B8D65E38C42713C939E6 /* UIView+Additions.swift in Sources */,
-				3C7AA9322116DF27BECE248A33A6B4DF /* UIWebView+Additions.swift in Sources */,
-				D3C605AD7998B627DBA9FB727FA56327 /* WKWebView+Additions.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8D629EB323459AF7EDB8CBBBEBFA1B6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5E57A1D2A80233D83596DB97E26A3503 /* Pods-LCAExtension_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA683BD993A617F8753131E5BEC50C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558DEDD00CD480035327CC5BC0FE353A /* Bundle+Additions.swift in Sources */,
+				5C784DB37F412527B76942D29CF7AC2C /* Date+Additions.swift in Sources */,
+				CF49781910E249D0A8AC6C243859F732 /* LCAExtension-dummy.m in Sources */,
+				B0C285DB12ED24781BBD88B0D0E05581 /* String+Additions.swift in Sources */,
+				FDA4A4984C655B79889ED1560224451E /* UIAlertController+Additions.swift in Sources */,
+				BAFE946244D3A437ABC55A5A12BD5538 /* UIButton+Additions.swift in Sources */,
+				9FB65889708F568A570A14FD235DA1F5 /* UIColor+Additions.swift in Sources */,
+				942B66D2469840164EF5377D2A56650F /* UIDevice+Additions.swift in Sources */,
+				29103F201589B13913BE8C3773D3AB08 /* UIImage+Additions.swift in Sources */,
+				F3BCD2879B2DC3185EEB861A6712B6B3 /* UILabel+Additions.swift in Sources */,
+				4DA131A50815C2CA8EEDD2279CB3FFFE /* UIView+Additions.swift in Sources */,
+				DFEFF769951960AFE2102362F4248E00 /* UIWebView+Additions.swift in Sources */,
+				152933FE1B25D8E8F5E8D7E40E5F7EB0 /* WKWebView+Additions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +396,7 @@
 		AD1E57AFECFD922D84AB387FF8918773 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LCAExtension;
-			target = 9EB9865B8168F799758EDFEBEFF346A1 /* LCAExtension */;
+			target = D7CD41650898493D8FDEAEEE23983968 /* LCAExtension */;
 			targetProxy = EBC6EAF48DC3B4AAB8540F961A80BF71 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -612,7 +616,39 @@
 			};
 			name = Release;
 		};
-		7C5DB36BD24CFF8AE87F02353BA50A39 /* Debug */ = {
+		C5DCCF6E82429EF00D0C8F20800DFF6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C7CD1CB2B68876A63EC403EB4F6A33F /* LCAExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LCAExtension/LCAExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LCAExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LCAExtension/LCAExtension.modulemap";
+				PRODUCT_NAME = LCAExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C813E7DB1DAAEC68345502BA6467CE92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0C7CD1CB2B68876A63EC403EB4F6A33F /* LCAExtension.xcconfig */;
 			buildSettings = {
@@ -677,38 +713,6 @@
 			};
 			name = Debug;
 		};
-		D2928378EAE56EE43A87D271DCD3AA08 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C7CD1CB2B68876A63EC403EB4F6A33F /* LCAExtension.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LCAExtension/LCAExtension-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LCAExtension/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LCAExtension/LCAExtension.modulemap";
-				PRODUCT_NAME = LCAExtension;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -721,20 +725,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5510AB62D2BA92D22DD67849ED41DABC /* Build configuration list for PBXNativeTarget "LCAExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7C5DB36BD24CFF8AE87F02353BA50A39 /* Debug */,
-				D2928378EAE56EE43A87D271DCD3AA08 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		820B6D779D21B9C983052566603AC2BC /* Build configuration list for PBXNativeTarget "Pods-LCAExtension_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1EA98DFCADE2BD7337C35EF85F1F1438 /* Debug */,
 				00A640CF8FD2FC43D456FFD764C209E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94D9F9494C32FC0862EED591113BD6E9 /* Build configuration list for PBXNativeTarget "LCAExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C813E7DB1DAAEC68345502BA6467CE92 /* Debug */,
+				C5DCCF6E82429EF00D0C8F20800DFF6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
